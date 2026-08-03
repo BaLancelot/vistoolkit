@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 350,
+  "height": 430,
+  "padding": {
+    "top": 30,
+    "right": 0,
+    "bottom": 40,
+    "left": 50
+  }, 
+  "data": {
+    "values": [
+      { "letter": "A", "frequency": 28 },
+      { "letter": "B", "frequency": 55 },
+      { "letter": "C", "frequency": 43 },
+      { "letter": "D", "frequency": 91 },
+      { "letter": "E", "frequency": 81 },
+      { "letter": "F", "frequency": 53 },
+      { "letter": "G", "frequency": 19 },
+      { "letter": "H", "frequency": 87 },
+      { "letter": "I", "frequency": 52 }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#4c78a8"
+  },
+  "encoding": {
+    "x": {
+      "field": "letter",
+      "type": "nominal",
+      "sort": "ascending",
+      "axis": {
+        "title": "Letter",
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "frequency",
+      "type": "quantitative",
+      "scale": {
+        "domain": [0, 100]
+      },
+      "axis": {
+        "title": "Count"
+      }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    },
+    "axisY": {
+      "domain": false
+    },
+    "axisX": {
+      "domainColor": "currentColor",
+      "tickColor": "currentColor"
+    }
+  }
+}
