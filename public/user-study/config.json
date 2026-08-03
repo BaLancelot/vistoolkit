@@ -27,12 +27,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega-lite-2": {
@@ -40,12 +34,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega-lite-3": {
@@ -53,12 +41,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega-lite-4": {
@@ -66,12 +48,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega": {
@@ -79,12 +55,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega-2": {
@@ -92,12 +62,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Vega-3": {
@@ -105,12 +69,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Observable": {
@@ -118,12 +76,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit's code better matches your preferred level of detail or abstraction? Why?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Observable-2": {
@@ -131,12 +83,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Observable-3": {
@@ -144,12 +90,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_D3_Observable-4": {
@@ -157,12 +97,6 @@
             "path": "user-study/assets/text/double/BAR_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Vega-lite": {
@@ -170,12 +104,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Vega-lite-2": {
@@ -183,12 +111,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Vega-lite-3": {
@@ -196,12 +118,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Vega-lite-4": {
@@ -209,12 +125,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Observable": {
@@ -222,12 +132,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Observable-2": {
@@ -235,12 +139,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega_Observable-3": {
@@ -248,12 +146,6 @@
             "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega-lite_Observable": {
@@ -261,12 +153,6 @@
             "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega-lite_Observable-2": {
@@ -274,12 +160,6 @@
             "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega-lite_Observable-3": {
@@ -287,12 +167,6 @@
             "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "BAR_Vega-lite": {
@@ -455,13 +329,7 @@
             "type": "markdown",
             "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
-            "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
-                    "type": "longText",
-                    "required": true
-                }
+           "response": [
             ]
         },
         "LINE_D3_Vega-lite-2": {
@@ -469,12 +337,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Vega-lite-3": {
@@ -482,12 +344,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Vega-lite-4": {
@@ -495,12 +351,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Vega": {
@@ -508,12 +358,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Vega-2": {
@@ -521,12 +365,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Vega-3": {
@@ -534,12 +372,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Vega.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Observable": {
@@ -547,12 +379,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Observable-2": {
@@ -560,12 +386,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3_Observable-3": {
@@ -573,12 +393,6 @@
             "path": "user-study/assets/text/double/LINE_D3_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Observable": {
@@ -586,12 +400,6 @@
             "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Observable-2": {
@@ -599,12 +407,6 @@
             "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Observable-3": {
@@ -612,12 +414,6 @@
             "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Observable-4": {
@@ -625,12 +421,6 @@
             "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Vega-lite": {
@@ -638,25 +428,12 @@
             "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Vega-lite-2": {
             "type": "markdown",
             "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
-            "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega_Vega-lite-3": {
@@ -664,12 +441,6 @@
             "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega-lite_Observable": {
@@ -677,12 +448,6 @@
             "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega-lite_Observable-2": {
@@ -690,12 +455,6 @@
             "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_Vega-lite_Observable-3": {
@@ -703,12 +462,6 @@
             "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
-                {
-                    "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
-                    "type": "longText",
-                    "required": true
-                }
             ]
         },
         "LINE_D3": {
