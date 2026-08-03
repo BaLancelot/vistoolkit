@@ -1,5 +1,5 @@
 <div style="margin-bottom: 15px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #1F2328;">
-  Which toolkit’s code better matches your preferred level of detail or abstraction? Why?
+  Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?
 </div>
 <div style="display: flex; gap: 15px; width: 100%; align-items: stretch;">
 <div style="flex: 1; min-width: 0; overflow: hidden;">
