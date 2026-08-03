@@ -29,7 +29,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
                     "type": "longText",
                     "required": true
                 }
@@ -41,7 +41,7 @@
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [{
                     "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
                     "type": "longText",
                     "required": true
                 }]
@@ -53,6 +53,17 @@
             "response": [{
                     "id": "huang",
                     "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }]
+        },
+        "BAR_D3_Vega-lite-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [{
+                    "id": "huang",
+                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
                     "type": "longText",
                     "required": true
                 }]
@@ -103,7 +114,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "prompt": "Which toolkit's code better matches your preferred level of detail or abstraction? Why?",
                     "type": "longText",
                     "required": true
                 }
@@ -116,7 +127,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
                     "type": "longText",
                     "required": true
                 }
@@ -129,7 +140,20 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Observable-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
                     "type": "longText",
                     "required": true
                 }
@@ -142,7 +166,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
                     "type": "longText",
                     "required": true
                 }
@@ -155,7 +179,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
                     "type": "longText",
                     "required": true
                 }
@@ -168,7 +192,20 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Vega-lite-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
                     "type": "longText",
                     "required": true
                 }
@@ -340,13 +377,27 @@
                     "prompt": "What part of the code controls the color of the data marks?",
                     "type": "longText",
                     "required": true
-                },
+                }
+            ]
+        },
+        "BAR_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
                 {
                     "id": "huang",
                     "prompt": "Which parts of the code control the chart's dimensions and margins?",
                     "type": "longText",
                     "required": true
-                },
+                }
+            ]
+        },
+        "BAR_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
                 {
                     "id": "huang",
                     "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
@@ -365,13 +416,27 @@
                     "prompt": "What part of the code controls the color of the data marks?",
                     "type": "longText",
                     "required": true
-                },
+                }
+            ]
+        },
+        "BAR_Vega-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
                 {
                     "id": "huang",
                     "prompt": "Which parts of the code control the chart's dimensions and margins?",
                     "type": "longText",
                     "required": true
-                },
+                }
+            ]
+        },
+        "BAR_Vega-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
                 {
                     "id": "huang",
                     "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
@@ -387,7 +452,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
                     "type": "longText",
                     "required": true
                 }
@@ -400,7 +465,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
                     "type": "longText",
                     "required": true
                 }
@@ -413,7 +478,20 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-lite-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
                     "type": "longText",
                     "required": true
                 }
@@ -504,7 +582,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "prompt": "Which toolkit’s code better matches your preferred level of detail or abstraction? Why?",
                     "type": "longText",
                     "required": true
                 }
@@ -517,7 +595,7 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "prompt": "Which toolkit’s code made it easier to understand how the visualization was created? What specifically helped?",
                     "type": "longText",
                     "required": true
                 }
@@ -530,7 +608,20 @@
             "response": [
                 {
                     "id": "huang",
-                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "prompt": "Are there any parts of the code, such as the syntax or structure, that you would combine between the two toolkits?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Observable-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Is there anything else you would like to share about your experience reading and comparing the two code examples?",
                     "type": "longText",
                     "required": true
                 }
@@ -627,6 +718,32 @@
                 }
             ]
         },
+        "LINE_D3-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
         "LINE_Observable": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Observable.md",
@@ -635,6 +752,32 @@
                 {
                     "id": "huang",
                     "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+         "LINE_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+         "LINE_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
                     "type": "longText",
                     "required": true
                 }
@@ -653,6 +796,32 @@
                 }
             ]
         },
+        "LINE_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
         "LINE_Vega": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega.md",
@@ -665,35 +834,91 @@
                     "required": true
                 }
             ]
+        },
+        "LINE_Vega-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "Blank-1": {
+            "type": "markdown",
+            "path": "user-study/assets/help.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+            ]
         }
+        
+        
     },
     "sequence": {
         "order": "fixed",
         "components": [
-            "BAR_D3_Vega-lite",
-            "BAR_D3_Vega",
-            "BAR_D3_Observable",
-            "BAR_Vega_Vega-lite",
-            "BAR_Vega_Observable",
-            "BAR_Vega-lite_Observable",
-            "BAR_Vega-lite",
-            "BAR_Vega-lite-2",
-            "BAR_Vega-lite-3",
+            "Blank-1",
+            "BAR_Observable",
+            "BAR_Observable-2",
+            "BAR_Observable-3",
             "BAR_D3",
             "BAR_D3-2",
             "BAR_D3-3",
-            "BAR_Observable",
+            "BAR_D3_Observable",
+            "BAR_D3_Observable-2",
+            "BAR_D3_Observable-3",
+            "BAR_D3_Observable-4",
+            "Blank-1",
+            "BAR_Vega-lite",
+            "BAR_Vega-lite-2",
+            "BAR_Vega-lite-3",
             "BAR_Vega",
-            "LINE_D3_Vega-lite",
-            "LINE_D3_Vega",
-            "LINE_D3_Observable",
-            "LINE_Vega_Observable",
-            "LINE_Vega_Vega-lite",
-            "LINE_Vega-lite_Observable",
+            "BAR_Vega-2",
+            "BAR_Vega-3",
+            "BAR_Vega_Vega-lite",
+            "BAR_Vega_Vega-lite-2",
+            "BAR_Vega_Vega-lite-3",
+            "BAR_Vega_Vega-lite-4",
+            "Blank-1",
+            "LINE_Observable",
+            "LINE_Observable-2",
+            "LINE_Observable-3",
             "LINE_Vega",
+            "LINE_Vega-2",
+            "LINE_Vega-3",
+            "LINE_Vega_Observable",
+            "LINE_Vega_Observable-2",
+            "LINE_Vega_Observable-3",
+            "LINE_Vega_Observable-4",
+            "Blank-1",
             "LINE_Vega-lite",
+            "LINE_Vega-lite-2",
+            "LINE_Vega-lite-3",
             "LINE_D3",
-            "LINE_Observable"
+            "LINE_D3-2",
+            "LINE_D3-3",
+            "LINE_D3_Vega-lite",
+            "LINE_D3_Vega-lite-2",
+            "LINE_D3_Vega-lite-3",
+            "LINE_D3_Vega-lite-4"
+            
         ]
     }
 }
