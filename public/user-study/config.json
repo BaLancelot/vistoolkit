@@ -1,0 +1,699 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Vistoolkit",
+        "version": "pilot",
+        "authors": [
+            "Lance Atienza"
+        ],
+        "date": "2026-06-3",
+        "description": "A simple questionnaire study",
+        "organizations": [
+            "University of Washington",
+            "Interactive Data Lab"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "your@email.com",
+        "helpTextPath": "user-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "withSidebar": true
+    },
+    "components": {
+        "BAR_D3_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [{
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }]
+        },
+        "BAR_D3_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [{
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }]
+        },
+        "BAR_D3_Vega": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Vega-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Vega-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code were the most difficult or confusing to understand? What made them confusing?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_D3-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "BAR_Vega": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/BAR_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                },
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code map the data values to the positions of the bars, points, or lines in the chart?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Vega-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Vega-lite-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega_Vega-lite-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-lite_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What parts of the code helped you answer the questions most easily? Please refer to any specific keywords, structures, or lines of code.",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-lite_Observable-2": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "Which parts of the code control the chart's dimensions and margins?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-lite_Observable-3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_Vega-lite_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What would you change about the syntax, organization, or amount of code to make it easier to understand and use?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_D3": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_D3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Observable": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Observable.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega-lite": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        },
+        "LINE_Vega": {
+            "type": "markdown",
+            "path": "user-study/assets/text/single/LINE_Vega.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": [
+                {
+                    "id": "huang",
+                    "prompt": "What part of the code controls the color of the data marks?",
+                    "type": "longText",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "BAR_D3_Vega-lite",
+            "BAR_D3_Vega",
+            "BAR_D3_Observable",
+            "BAR_Vega_Vega-lite",
+            "BAR_Vega_Observable",
+            "BAR_Vega-lite_Observable",
+            "BAR_Vega-lite",
+            "BAR_Vega-lite-2",
+            "BAR_Vega-lite-3",
+            "BAR_D3",
+            "BAR_D3-2",
+            "BAR_D3-3",
+            "BAR_Observable",
+            "BAR_Vega",
+            "LINE_D3_Vega-lite",
+            "LINE_D3_Vega",
+            "LINE_D3_Observable",
+            "LINE_Vega_Observable",
+            "LINE_Vega_Vega-lite",
+            "LINE_Vega-lite_Observable",
+            "LINE_Vega",
+            "LINE_Vega-lite",
+            "LINE_D3",
+            "LINE_Observable"
+        ]
+    }
+}

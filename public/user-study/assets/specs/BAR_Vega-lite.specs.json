@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "width": 400,
+  "height": 500,
+  "data": {
+    "values": [
+      { "letter": "A", "frequency": 28 },
+      { "letter": "B", "frequency": 55 },
+      { "letter": "C", "frequency": 43 },
+      { "letter": "D", "frequency": 91 },
+      { "letter": "E", "frequency": 81 },
+      { "letter": "F", "frequency": 53 },
+      { "letter": "G", "frequency": 19 },
+      { "letter": "H", "frequency": 87 },
+      { "letter": "I", "frequency": 52 }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "color": "#4c78a8"
+  },
+  "encoding": {
+    "x": {
+      "field": "letter",
+      "type": "nominal",
+      "axis": {
+        "labelAngle": 0,
+        "title": "Letter",
+        "tickColor": "black",
+        "domainColor": "black",
+        "titleFontWeight": "normal"
+      }
+    },
+    "y": {
+      "field": "frequency",
+      "type": "quantitative",
+      "axis": {
+        "grid": false,
+        "title": "Count",
+        "domain": false,
+        "titleFontWeight": "normal",
+        "tickColor": "black"
+      }
+    }
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}
