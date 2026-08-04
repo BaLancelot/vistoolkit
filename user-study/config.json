@@ -4460,7 +4460,7 @@
                     "id": "toolkit-mental-effort-ranking",
                     "type": "ranking-sublist",
                     "prompt": "Rank the four toolkits from requiring the least mental effort to requiring the most mental effort to understand the code.",
-                    "secondaryText": "Place the toolkit requiring the least mental effort at the top and the toolkit requiring the most mental effort at the bottom. After completing your ranking, please explain your reasoning aloud.",
+                    "secondaryText": "Place the toolkit requiring the most mental effort at the top and the toolkit requiring the least mental effort at the bottom. After completing your ranking, please explain your reasoning aloud.",
                     "location": "aboveStimulus",
                     "options": [
                         {
