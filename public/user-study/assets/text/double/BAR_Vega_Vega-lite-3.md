@@ -3,6 +3,9 @@
 </div>
 <div style="display: flex; gap: 15px; width: 100%; align-items: stretch;">
 <div style="flex: 1; min-width: 0; overflow: hidden;">
+<div style="background-color: #21252b; color: #abb2bf; padding: 10px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; border-bottom: 1px solid #3e4451;">
+      Vega
+    </div>
     <div class="highlight" style="background: #282C34"><pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size !important: 13px; line-height: 1.5; overflow-x: auto; border: 1px solid #3e4451; margin: 0; box-sizing: border-box;; line-height: 125%;"><span></span><span style="color:rgb(200, 96, 214)">viewof</span><span style="color: #E06C75"> barView </span><span style="color:rgb(101, 208, 235)">=</span><span style="color: #E06C75"> embed</span><span style="color: #ABB2BF">({</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;$schema&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;https://vega.github.io/schema/vega/v6.json&quot;</span><span style="color: #ABB2BF">,</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;description&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;A simple bar chart with embedded data.&quot;</span><span style="color: #ABB2BF">,</span>
@@ -110,6 +113,9 @@
   </div>
 
 <div style="flex: 1; min-width: 0; overflow: hidden;">
+<div style="background-color: #21252b; color: #abb2bf; padding: 10px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; border-bottom: 1px solid #3e4451;">
+      Vega-lite
+    </div>
     <div class="highlight" style="background: #282C34"><pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size !important: 13px; line-height: 1.5; overflow-x: auto; border: 1px solid #3e4451; margin: 0; box-sizing: border-box;; line-height: 125%;"><span></span><span style="color: #E06C75">render</span><span style="color: #ABB2BF">({</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;$schema&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;https://vega.github.io/schema/vega-lite/v6.json&quot;</span><span style="color: #ABB2BF">,</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;description&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;A simple bar chart with embedded data.&quot;</span><span style="color: #ABB2BF">,</span>
