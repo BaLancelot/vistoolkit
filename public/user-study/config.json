@@ -30,19 +30,19 @@
         },
         "BAR_D3_Vega-lite-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_D3_Vega-lite-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite-3.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_D3_Vega-lite-4": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-lite-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -54,13 +54,19 @@
         },
         "BAR_D3_Vega-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Vega.md",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_D3_Vega-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Vega.md",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": []
+        },
+        "BAR_D3_Vega-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_D3_Vega-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -72,19 +78,19 @@
         },
         "BAR_D3_Observable-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "path": "user-study/assets/text/double/BAR_D3_Observable-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_D3_Observable-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "path": "user-study/assets/text/double/BAR_D3_Observable-3.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_D3_Observable-4": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_D3_Observable.md",
+            "path": "user-study/assets/text/double/BAR_D3_Observable-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -96,19 +102,19 @@
         },
         "BAR_Vega_Vega-lite-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_Vega_Vega-lite-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite-3.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_Vega_Vega-lite-4": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite.md",
+            "path": "user-study/assets/text/double/BAR_Vega_Vega-lite-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -120,13 +126,19 @@
         },
         "BAR_Vega_Observable-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_Vega_Observable-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega_Observable.md",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable-3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": []
+        },
+        "BAR_Vega_Observable-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega_Observable-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -138,13 +150,19 @@
         },
         "BAR_Vega-lite_Observable-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "BAR_Vega-lite_Observable-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable.md",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable-3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": []
+        },
+        "BAR_Vega-lite_Observable-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/BAR_Vega-lite_Observable-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -312,19 +330,19 @@
         },
         "LINE_D3_Vega-lite-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_D3_Vega-lite-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite-3.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_D3_Vega-lite-4": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Vega-lite.md",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-lite-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -336,13 +354,19 @@
         },
         "LINE_D3_Vega-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Vega.md",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_D3_Vega-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Vega.md",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": []
+        },
+        "LINE_D3_Vega-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Vega-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -354,13 +378,19 @@
         },
         "LINE_D3_Observable-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Observable.md",
+            "path": "user-study/assets/text/double/LINE_D3_Observable-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_D3_Observable-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_D3_Observable.md",
+            "path": "user-study/assets/text/double/LINE_D3_Observable-3.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
+            "response": []
+        },
+        "LINE_D3_Observable-4": {
+            "type": "markdown",
+            "path": "user-study/assets/text/double/LINE_D3_Observable-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
@@ -372,19 +402,19 @@
         },
         "LINE_Vega_Observable-2": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable-2.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_Vega_Observable-3": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable-3.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
         "LINE_Vega_Observable-4": {
             "type": "markdown",
-            "path": "user-study/assets/text/double/LINE_Vega_Observable.md",
+            "path": "user-study/assets/text/double/LINE_Vega_Observable-4.md",
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": []
         },
