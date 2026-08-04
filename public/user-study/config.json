@@ -728,11 +728,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -751,11 +751,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -967,11 +967,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -990,11 +990,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1206,11 +1206,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1229,11 +1229,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1445,11 +1445,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1468,11 +1468,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1684,11 +1684,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1707,11 +1707,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1923,11 +1923,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -1946,11 +1946,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2162,11 +2162,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2185,11 +2185,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2401,11 +2401,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor" ,
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label":"Good",
                             "value": 100
                         }
                     ],
@@ -2424,11 +2424,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2640,11 +2640,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2663,11 +2663,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2879,11 +2879,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -2902,11 +2902,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -3118,11 +3118,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -3141,11 +3141,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -3357,11 +3357,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -3380,11 +3380,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Good",
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label": "Poor",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
