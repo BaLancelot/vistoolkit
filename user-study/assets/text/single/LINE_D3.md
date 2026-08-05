@@ -5,6 +5,9 @@
   </div>
 
   <div style="flex: 1; min-width: 0;">
+  <div style="font-family: sans-serif; font-size: 18px; font-weight: bold; margin-bottom: 12px; color: #333;">
+    D3
+  </div>
     <pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size: 13px !important; margin: 0; max-height: 500px; overflow-y: auto; white-space: pre;">
       <div style="display: flex; gap: 15px; width: 100%; align-items: stretch;">
   <div style="flex: 1; min-width: 0; overflow: hidden;">
