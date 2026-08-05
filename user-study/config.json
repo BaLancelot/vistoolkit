@@ -4592,6 +4592,8 @@
         "BAR_Vega-lite_open1": {
             "type": "markdown",
             "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+
+            "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
                     "id": "instruction-prompt",
@@ -4604,6 +4606,7 @@
         "BAR_Vega-lite_open2": {
             "type": "markdown",
             "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
                     "id": "instruction-prompt",
@@ -4616,6 +4619,7 @@
         "BAR_Vega-lite_open3": {
             "type": "markdown",
             "path": "user-study/assets/text/single/BAR_Vega-lite.md",
+            "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
                     "id": "instruction-prompt",
