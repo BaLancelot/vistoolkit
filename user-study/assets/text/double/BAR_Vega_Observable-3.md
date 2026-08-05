@@ -3,7 +3,10 @@
 </div>
 <div style="display: flex; gap: 15px; width: 100%; align-items: stretch;">
 <div style="flex: 1; min-width: 0; overflow: hidden;">
-    <div class="highlight" style="background: #282C34"><pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size !important: 13px; line-height: 1.5; overflow-x: auto; border: 1px solid #3e4451; margin: 0; box-sizing: border-box;; line-height: 125%;"><span></span><span style="color: #ABB2BF">viewof</span><span style="color: #ABB2BF"> barView = embed({</span>
+<div style="background-color: #21252b; color: #abb2bf; padding: 10px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; border-bottom: 1px solid #3e4451;">
+      Vega
+    </div>
+    <div class="highlight" style="background: #282C34"><pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size !important: 13px; line-height: 1.5; overflow-x: auto; border: 1px solid #3e4451; margin: 0; box-sizing: border-box;; line-height: 125%;"><span></span><span style="color: #C678DD">viewof</span><span style="color: #ABB2BF"> </span><span style="color: #E06C75">barView</span><span style="color: #ABB2BF"> </span><span style="color: #56B6C2">=</span><span style="color: #ABB2BF"> </span><span style="color: #E06C75">embed</span><span style="color: #ABB2BF">({</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;$schema&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;https://vega.github.io/schema/vega/v6.json&quot;</span><span style="color: #ABB2BF">,</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;description&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;A simple bar chart with embedded data.&quot;</span><span style="color: #ABB2BF">,</span>
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;background&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;white&quot;</span><span style="color: #ABB2BF">,</span>
@@ -14,7 +17,7 @@
 <span style="color: #ABB2BF">  </span><span style="color: #E06C75">&quot;data&quot;</span><span style="color: #ABB2BF">: [</span>
 <span style="color: #ABB2BF">    {</span>
 <span style="color: #ABB2BF">      </span><span style="color: #E06C75">&quot;name&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;source_0&quot;</span><span style="color: #ABB2BF">,</span>
-<span style="color: #ABB2BF">      </span><span style="color: #E06C75">&quot;values&quot;</span><span style="color: #ABB2BF">: barData</span>
+<span style="color: #ABB2BF">      </span><span style="color: #E06C75">&quot;values&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #E06C75">barData</span>
 <span style="color: #ABB2BF">    },</span>
 <span style="color: #ABB2BF">    {</span>
 <span style="color: #ABB2BF">      </span><span style="color: #E06C75">&quot;name&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;data_0&quot;</span><span style="color: #ABB2BF">,</span>
@@ -30,7 +33,7 @@
 <span style="color: #ABB2BF">        },</span>
 <span style="color: #ABB2BF">        {</span>
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;type&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;filter&quot;</span><span style="color: #ABB2BF">,</span>
-<span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;expr&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;isValid(datum[&quot;</span><span style="color: #E5C07B">frequency</span><span style="color: #98C379">&quot;]) &amp;&amp; isFinite(+datum[&quot;</span><span style="color: #E5C07B">frequency</span><span style="color: #98C379">&quot;])&quot;</span>
+<span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;expr&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;isValid(datum[&#92&quot;frequency&#92&quot;]) &amp;&amp; isFinite(+datum[&#92&quot;frequency&#92&quot;])&quot;</span>
 <span style="color: #ABB2BF">        }</span>
 <span style="color: #ABB2BF">      ]</span>
 <span style="color: #ABB2BF">    }</span>
@@ -46,7 +49,7 @@
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;fill&quot;</span><span style="color: #ABB2BF">: {</span><span style="color: #E06C75">&quot;value&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;#4c78a8&quot;</span><span style="color: #ABB2BF">},</span>
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;ariaRoleDescription&quot;</span><span style="color: #ABB2BF">: {</span><span style="color: #E06C75">&quot;value&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;bar&quot;</span><span style="color: #ABB2BF">},</span>
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;description&quot;</span><span style="color: #ABB2BF">: {</span>
-<span style="color: #ABB2BF">            </span><span style="color: #E06C75">&quot;signal&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot; + (isValid(datum[&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #98C379">&quot;]) ? isArray(datum[&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #98C379">&quot;]) ? join(datum[&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #98C379">&quot;], &#39; &#39;) : datum[&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #98C379">&quot;] : &quot;&quot;+datum[&quot;</span><span style="color: #ABB2BF">letter</span><span style="color: #98C379">&quot;]) + &quot;</span><span style="color: #ABB2BF">; </span><span style="color: #E5C07B">frequency: </span><span style="color: #98C379">&quot; + (format(datum[&quot;</span><span style="color: #E5C07B">frequency</span><span style="color: #98C379">&quot;], &quot;&quot;))&quot;</span>
+<span style="color: #ABB2BF">            </span><span style="color: #E06C75">&quot;signal&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;&#92&quot;letter: &#92&quot; + (isValid(datum[&#92&quot;letter&#92&quot;]) ? isArray(datum[&#92&quot;letter&#92&quot;]) ? join(datum[&#92&quot;letter&#92&quot;], &#39; &#39;) : datum[&#92&quot;letter&#92&quot;] : &#92&quot;&#92&quot;+datum[&#92&quot;letter&#92&quot;]) + &#92&quot;; frequency: &#92&quot; + (format(datum[&#92&quot;frequency&#92&quot;], &#92&quot;&#92&quot;))&quot;</span>
 <span style="color: #ABB2BF">          },</span>
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;x&quot;</span><span style="color: #ABB2BF">: {</span><span style="color: #E06C75">&quot;scale&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;x&quot;</span><span style="color: #ABB2BF">, </span><span style="color: #E06C75">&quot;field&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;letter&quot;</span><span style="color: #ABB2BF">},</span>
 <span style="color: #ABB2BF">          </span><span style="color: #E06C75">&quot;width&quot;</span><span style="color: #ABB2BF">: {</span><span style="color: #E06C75">&quot;signal&quot;</span><span style="color: #ABB2BF">: </span><span style="color: #98C379">&quot;max(0.25, bandwidth(&#39;x&#39;))&quot;</span><span style="color: #ABB2BF">},</span>
@@ -110,8 +113,10 @@
   </div>
 
  <div style="flex: 1; min-width: 0;">
-    <pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size: 13px !important; margin: 0; max-height: 500px; overflow-y: auto; white-space: pre;">
       <div style="flex: 1; min-width: 0; overflow: hidden;">
+      <div style="background-color: #21252b; color: #abb2bf; padding: 10px 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; border-bottom: 1px solid #3e4451;">
+      Observable
+    </div>
     <div class="highlight" style="background: #282C34"><pre style="background-color: #282c34; color: #abb2bf; padding: 16px; border-radius: 6px; font-family: 'Consolas', monospace; font-size !important: 13px; line-height: 1.5; overflow-x: auto; border: 1px solid #3e4451; margin: 0; box-sizing: border-box;; line-height: 125%;"><span></span><span style="color: #E06C75">Plot</span><span style="color: #E06C75">.plot</span><span style="color: #ABB2BF">({</span>
 <span style="color: #E06C75">  width: </span><span style="color: #D19A66">400</span><span style="color: #ABB2BF">,</span>
 <span style="color: #E06C75">  height</span><span style="color: #ABB2BF">: </span><span style="color: #D19A66">500</span><span style="color: #ABB2BF">,</span>
