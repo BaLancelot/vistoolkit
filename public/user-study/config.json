@@ -2401,11 +2401,11 @@
                     "withBar": false,
                     "options": [
                         {
-                            "label": "Poor" ,
+                            "label": "Poor",
                             "value": 0
                         },
                         {
-                            "label":"Good",
+                            "label": "Good",
                             "value": 100
                         }
                     ],
@@ -4598,7 +4598,6 @@
         "BAR_Vega-lite_open1": {
             "type": "markdown",
             "path": "user-study/assets/text/single/BAR_Vega-lite.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4664,7 +4663,6 @@
         "BAR_Vega_open3": {
             "type": "markdown",
             "path": "user-study/assets/text/single/BAR_Vega.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4717,7 +4715,6 @@
         "LINE_Observable_open1": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Observable.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4731,7 +4728,6 @@
         "LINE_Observable_open2": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Observable.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4745,7 +4741,6 @@
         "LINE_Observable_open3": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Observable.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4759,7 +4754,6 @@
         "LINE_Vega-lite_open1": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega-lite.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4773,7 +4767,6 @@
         "LINE_Vega-lite_open2": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega-lite.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4787,7 +4780,6 @@
         "LINE_Vega-lite_open3": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega-lite.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4801,7 +4793,6 @@
         "LINE_Vega_open1": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4815,7 +4806,6 @@
         "LINE_Vega_open2": {
             "type": "markdown",
             "path": "user-study/assets/text/single/LINE_Vega.md",
-
             "stylesheetPath": "user-study/assets/text/style.css",
             "response": [
                 {
@@ -4840,121 +4830,104 @@
             ]
         }
     },
-
-
     "sequence": {
         "order": "fixed",
         "components": [
-           "intro",
-
-"BAR_D3",
-"d3-bar-q1-mental-effort",
-"BAR_D3-2",
-"d3-bar-q2-mental-effort",
-"BAR_D3-3",
-"d3-bar-q3-mental-effort",
-"BAR_D3_open1",
-"BAR_D3_open2",
-"BAR_D3_open3",
-
-"BAR_Vega-lite",
-"vegalite-bar-q1-mental-effort",
-"BAR_Vega-lite-2",
-"vegalite-bar-q2-mental-effort",
-"BAR_Vega-lite-3",
-"vegalite-bar-q3-mental-effort",
-"BAR_Vega-lite_open1",
-"BAR_Vega-lite_open2",
-"BAR_Vega-lite_open3",
-
-"BAR_D3_Vega-lite",
-"BAR_D3_Vega-lite-2",
-"BAR_D3_Vega-lite-3",
-"BAR_D3_Vega-lite-4",
-"vegalite-d3-bar-workload",
-
-"BAR_Vega",
-"vega-bar-q1-mental-effort",
-"BAR_Vega-2",
-"vega-bar-q2-mental-effort",
-"BAR_Vega-3",
-"vega-bar-q3-mental-effort",
-"BAR_Vega_open1",
-"BAR_Vega_open2",
-"BAR_Vega_open3",
-
-"BAR_Observable",
-"observable-plot-bar-q1-mental-effort",
-"BAR_Observable-2",
-"observable-plot-bar-q2-mental-effort",
-"BAR_Observable-3",
-"observable-plot-bar-q3-mental-effort",
-"BAR_Observable_open1",
-"BAR_Observable_open2",
-"BAR_Observable_open3",
-
-"BAR_Vega_Observable",
-"BAR_Vega_Observable-2",
-"BAR_Vega_Observable-3",
-"BAR_Vega_Observable-4",
-"observable-plot-vega-bar-workload",
-
-"LINE_D3",
-"d3-line-q1-mental-effort",
-"LINE_D3-2",
-"d3-line-q2-mental-effort",
-"LINE_D3-3",
-"d3-line-q3-mental-effort",
-"LINE_D3_open1",
-"LINE_D3_open2",
-"LINE_D3_open3",
-
-"LINE_Vega",
-"vega-line-q1-mental-effort",
-"LINE_Vega-2",
-"vega-line-q2-mental-effort",
-"LINE_Vega-3",
-"vega-line-q3-mental-effort",
-"LINE_Vega_open1",
-"LINE_Vega_open2",
-"LINE_Vega_open3",
-
-"LINE_D3_Vega",
-"LINE_D3_Vega-2",
-"LINE_D3_Vega-3",
-"LINE_D3_Vega-4",
-"vega-d3-line-workload",
-
-"LINE_Observable",
-"observable-plot-line-q1-mental-effort",
-"LINE_Observable-2",
-"observable-plot-line-q2-mental-effort",
-"LINE_Observable-3",
-"observable-plot-line-q3-mental-effort",
-"LINE_Observable_open1",
-"LINE_Observable_open2",
-"LINE_Observable_open3",
-
-"LINE_Vega-lite",
-"vegalite-line-q1-mental-effort",
-"LINE_Vega-lite-2",
-"vegalite-line-q2-mental-effort",
-"LINE_Vega-lite-3",
-"vegalite-line-q3-mental-effort",
-"LINE_Vega-lite_open1",
-"LINE_Vega-lite_open2",
-"LINE_Vega-lite_open3",
-
-"LINE_Vega-lite_Observable",
-"LINE_Vega-lite_Observable-2",
-"LINE_Vega-lite_Observable-3",
-"LINE_Vega-lite_Observable-4",
-"vegalite-observable-plot-line-workload",
-
-"toolkit-mental-effort-ranking",
-"toolkit-preference-ranking"
-
-
+            "intro",
+            "BAR_Observable",
+            "observable-plot-bar-q1-mental-effort",
+            "BAR_Observable-2",
+            "observable-plot-bar-q2-mental-effort",
+            "BAR_Observable-3",
+            "observable-plot-bar-q3-mental-effort",
+            "BAR_Observable_open1",
+            "BAR_Observable_open2",
+            "BAR_Observable_open3",
+            "BAR_D3",
+            "d3-bar-q1-mental-effort",
+            "BAR_D3-2",
+            "d3-bar-q2-mental-effort",
+            "BAR_D3-3",
+            "d3-bar-q3-mental-effort",
+            "BAR_D3_open1",
+            "BAR_D3_open2",
+            "BAR_D3_open3",
+            "BAR_D3_Observable",
+            "BAR_D3_Observable-2",
+            "BAR_D3_Observable-3",
+            "BAR_D3_Observable-4",
+            "observable-plot-d3-bar-workload",
+            "BAR_Vega-lite",
+            "vegalite-bar-q1-mental-effort",
+            "BAR_Vega-lite-2",
+            "vegalite-bar-q2-mental-effort",
+            "BAR_Vega-lite-3",
+            "vegalite-bar-q3-mental-effort",
+            "BAR_Vega-lite_open1",
+            "BAR_Vega-lite_open2",
+            "BAR_Vega-lite_open3",
+            "BAR_Vega",
+            "vega-bar-q1-mental-effort",
+            "BAR_Vega-2",
+            "vega-bar-q2-mental-effort",
+            "BAR_Vega-3",
+            "vega-bar-q3-mental-effort",
+            "BAR_Vega_open1",
+            "BAR_Vega_open2",
+            "BAR_Vega_open3",
+            "BAR_Vega_Vega-lite",
+            "BAR_Vega_Vega-lite-2",
+            "BAR_Vega_Vega-lite-3",
+            "BAR_Vega_Vega-lite-4",
+            "vegalite-vega-bar-workload",
+            "LINE_Vega-lite",
+            "vegalite-line-q1-mental-effort",
+            "LINE_Vega-lite-2",
+            "vegalite-line-q2-mental-effort",
+            "LINE_Vega-lite-3",
+            "vegalite-line-q3-mental-effort",
+            "LINE_Vega-lite_open1",
+            "LINE_Vega-lite_open2",
+            "LINE_Vega-lite_open3",
+            "LINE_D3",
+            "d3-line-q1-mental-effort",
+            "LINE_D3-2",
+            "d3-line-q2-mental-effort",
+            "LINE_D3-3",
+            "d3-line-q3-mental-effort",
+            "LINE_D3_open1",
+            "LINE_D3_open2",
+            "LINE_D3_open3",
+            "LINE_D3_Vega-lite",
+            "LINE_D3_Vega-lite-2",
+            "LINE_D3_Vega-lite-3",
+            "LINE_D3_Vega-lite-4",
+            "vegalite-d3-line-workload",
+            "LINE_Observable",
+            "observable-plot-line-q1-mental-effort",
+            "LINE_Observable-2",
+            "observable-plot-line-q2-mental-effort",
+            "LINE_Observable-3",
+            "observable-plot-line-q3-mental-effort",
+            "LINE_Observable_open1",
+            "LINE_Observable_open2",
+            "LINE_Observable_open3",
+            "LINE_Vega",
+            "vega-line-q1-mental-effort",
+            "LINE_Vega-2",
+            "vega-line-q2-mental-effort",
+            "LINE_Vega-3",
+            "vega-line-q3-mental-effort",
+            "LINE_Vega_open1",
+            "LINE_Vega_open2",
+            "LINE_Vega_open3",
+            "LINE_Vega_Observable",
+            "LINE_Vega_Observable-2",
+            "LINE_Vega_Observable-3",
+            "LINE_Vega_Observable-4",
+            "observable-plot-vega-line-workload",
+            "toolkit-mental-effort-ranking",
+            "toolkit-preference-ranking"
         ]
     }
 }
