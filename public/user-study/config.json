@@ -4833,7 +4833,7 @@
     "sequence": {
         "order": "fixed",
         "components": [
-            "intro",
+           "intro",
 
 "BAR_Observable",
 "observable-plot-bar-q1-mental-effort",
@@ -4941,7 +4941,6 @@
 
 "toolkit-mental-effort-ranking",
 "toolkit-preference-ranking"
-
 
 
 
